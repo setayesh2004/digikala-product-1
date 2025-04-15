@@ -1,0 +1,41 @@
+.list-basket {
+  width: 450px;
+  height: 320px;
+  background-color: rgb(255, 255, 255);
+  margin-right: 900px;
+  border: 1px solid #b1b1b1;
+  border-radius: 10px;
+  h3 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    font-family: yekan;
+    color: #424242;
+  }
+  p {
+    font-size: 12px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    font-family: yekan;
+    color: #757575;
+  }
+  .icon-img {
+    padding-right: 30px;
+  }
+}
+.basket {
+  width: auto;
+  height: auto;
+  background-color: #029a49;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+  padding: 10px;
+  color: whitesmoke;
+  position: fixed;
+  bottom: 20px;
+  left: 50px;
+  gap: 8px;
+  font-size: 16px;
+}

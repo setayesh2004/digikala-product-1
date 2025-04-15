@@ -1,0 +1,38 @@
+.category-2-cat {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 35px auto;
+  h3 {
+    font-family: yekan;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: normal;
+  }
+  .category-2-cat-img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 20px;
+      text-decoration: none;
+      h5 {
+        margin: 10px;
+        color: #2b2b2b;
+        font-family: yekan;
+        font-size: 11px;
+        overflow: hidden;
+      }
+    }
+  }
+}

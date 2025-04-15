@@ -1,0 +1,114 @@
+.form {
+  width: 400px;
+  height: 450px;
+  border: 1px solid #807676;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 470px;
+  .form-center {
+    width: 95%;
+    height: 95%;
+
+    .form-center-1 {
+      width: 100%;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 90px;
+        height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    .form-center-2 {
+      width: 100%;
+      height: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: start;
+      padding: 5px 0;
+      h3 {
+        font-family: yekan;
+        font-size: 16px;
+        padding: 8px 0;
+      }
+      p {
+        font-family: yekan;
+        font-size: 11px;
+        color: gray;
+        padding: 5px 0;
+      }
+    }
+    .form-center-3 {
+      width: 90%;
+      height: 60px;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      padding-right: 10px;
+      input[type="text"] {
+        height: 44px;
+        width: 600px;
+        background-color: white;
+        border: 1px solid rgb(219, 32, 32);
+        outline: none;
+        padding-right: 20px;
+        caret-color: #136ca8;
+        font-family: yekan;
+        border-radius: var(--border-radius-medium);
+        &::placeholder {
+          padding-right: 20px;
+          font-family: yekan;
+          font-size: 12px;
+          color: #2f65b0;
+        }
+      }
+      p {
+        font-family: yekan;
+        font-size: 11px;
+        padding: 5px 0;
+        color: rgb(196, 49, 79);
+      }
+    }
+    .form-center-4 {
+      width: 90%;
+      height: 60px;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      padding-right: 10px;
+      margin: 40px 10px;
+      background-color: rgb(222, 48, 48);
+      border: 1px solid rgb(219, 32, 32);
+      border-radius: 10px;
+      p {
+        font-family: yekan;
+        font-size: 18px;
+        padding: 5px 0;
+        padding-right: 140px;
+        color: white;
+        align-items: center;
+      }
+    }
+    .form-center-5{
+        width: 100%;
+        height: 50px;
+ 
+        margin-bottom: 60px;
+        p{
+            font-family: yekan;
+            font-size: 12px;
+            padding: 5px 4px;
+            color: rgb(138, 139, 142);
+        }
+
+    }
+  }
+}

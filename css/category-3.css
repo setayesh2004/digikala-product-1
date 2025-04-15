@@ -1,0 +1,111 @@
+.category-3 {
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+
+  .cat-center {
+    width: 80%;
+    border-radius: 15px;
+    border: 1px solid #bbb;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+
+    .category-3-top {
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 0;
+
+      span {
+        margin: 0 10px;
+        font-size: 20px;
+        color: crimson;
+      }
+      h3 {
+        font-family: yekan;
+        font-size: 20px;
+        color: #242424;
+        font-weight: 100;
+      }
+    }
+    .category-3-center {
+      width: auto;
+      height: auto;
+      margin: 0;
+      text-decoration: none;
+
+      ul {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: start;
+        justify-self: center;
+        flex-wrap: wrap;
+
+        li {
+          padding: 10px 20px 20px;
+          width: 220px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-flow: row wrap;
+
+          .span-category-3-center {
+            align-items: center;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-flow: row-reverse wrap;
+            padding: 5px 5px;
+            text-decoration: none;
+            width: 100%;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            padding: 0 5px;
+            span {
+              background-color: #ff2828;
+              color: whitesmoke;
+              border-radius: 20px;
+              padding: 2px 5px;
+              font-family: var(--font-family-number);
+              font-size: 16px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-weight: bold;
+  
+            }
+           .pppsvg {
+              display: flex;
+              flex-flow: row-reverse wrap;
+              align-items: center;
+              font-family: var(--font-family-number);
+              font-size: 18px;
+              color: #2b2b2b;
+              font-weight: bold;
+            }
+ 
+            .deliii {
+              width: 100%;
+              font-family: var(--font-family-number);
+              color: rgb(156, 150, 150);
+              font-size: 16px;
+              text-decoration: line-through;
+              text-align: left;
+              padding-left: 10px;
+ 
+  
+            }
+          }
+        }
+      }
+    }
+  }
+}
