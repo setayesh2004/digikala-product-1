@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>فروشگاه اینترنتی دیجی کاالا</title>
+    <title>فروشگاه اینترنتی دیجی کالا</title>
     <link
       rel="stylesheet"
       href="./font-awesome-4.7.0/css/font-awesome.min.css"
@@ -5369,16 +5369,17 @@
     </div>
     <script src="./swiper/swiper-bundle.min.js"></script>
     <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
-  
     <!-- Initialize Swiper -->
+ 
     <script>
       var swiper = new Swiper(".mySwiper", {
         slidesPerView: 12.5,
         spaceBetween: 1,
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
         },
+  
       });
       var swiper = new Swiper(".mySlider", {
         spaceBetween: 0,
@@ -5415,10 +5416,5 @@
       });
  
     </script>
- 
- 
- 
   </body>
-  
- 
 </html>
